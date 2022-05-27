@@ -23,9 +23,9 @@ export default function FoodHeader({ backBtn }) {
 const styles = StyleSheet.create({
   container: {
     padding: spacing[5],
-    // borderBottomWidth: 0.2,
-    borderBottomColor: colors.white,
+    borderBottomColor: colors.gray,
     flexDirection: 'row',
     alignItems: 'center',
+    borderWidth: 0.4
   }
 })
